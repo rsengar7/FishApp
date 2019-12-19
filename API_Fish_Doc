@@ -1,0 +1,117 @@
+Fish App API Documents
+
+------------------------------------------------------------------------------------------
+1 - Signup API
+
+http://7586a6d7.ngrok.io/adduser
+
+{
+    "adduserdata" : {
+        "email": "d@gmail.com",
+        "full_name": "Deepak",
+        "mob_code": "",
+        "mob_number": "",
+        "password1" : 12345678,
+        "platform": "IOS"
+    }
+}
+------------------------------------------------------------------------------------------
+2 - Email Code Verification
+
+http://7586a6d7.ngrok.io/forgotpassword
+
+{
+    "forgotpassword":{
+        "email":"rsengar7@gmail.com",
+        "platform": "IOS"
+    }
+}
+------------------------------------------------------------------------------------------
+3 - Login API
+
+http://7586a6d7.ngrok.io/login
+
+{
+    "login":{
+        "email":"asd1@gmail.com",
+        "password1":"1234567890",
+        "platform":"IOS"
+    }
+}
+------------------------------------------------------------------------------------------
+4 - Otp Verification Again
+
+http://7d5d48e7.ngrok.io/verificationcode
+
+{
+    "verificationcode": {
+        "email":"rsengar7@gmail.com",
+        "userid":"asd@gmail.com",
+        "code":"155451",
+        "platform":"IOS"
+    }
+}
+------------------------------------------------------------------------------------------
+5 - Social Facebook SignUp and Login
+
+http://7d5d48e7.ngrok.io/socialadduser
+
+{
+    "socialadduser": {
+        "email":"asd1@gmail.com",
+        "full_name":"1234567890",
+        "fbid":"1234567890",
+        "platform":"IOS"
+    }
+}
+------------------------------------------------------------------------------------------
+6 - Mobile Verification and Insertion of Mobile Number and Mobile Code
+
+http://7d5d48e7.ngrok.io/verifymobilenumber
+
+{
+    "verifymobilenumber": {
+        "userid":"1",
+        "mobilenumber":"1234567890",
+        "countrycode":"+91",
+        "platform":"IOS"
+    }
+}
+------------------------------------------------------------------------------------------
+7 - Logout 
+
+http://7d5d48e7.ngrok.io/logout
+
+{
+    "logout": {
+        "userid":1
+    }
+}
+------------------------------------------------------------------------------------------
+8 - Update Profile
+
+http://7d5d48e7.ngrok.io/userprofile
+
+{
+    "userprofile": {
+        "userid":"asd1@gmail.com",
+        "profilepic":"",
+        "name":"Ritesh",
+        "password":"123456789",
+        "platform":"IOS"
+    }
+}
+------------------------------------------------------------------------------------------
+9 - Forget Password Update
+
+http://7d5d48e7.ngrok.io/forgetpasswordupdate
+
+{
+    "forgetpasswordupdate": {
+        "userid":"3",
+        "email":"cfff@gmail.com",
+        "password":"12345",
+        "platform":"IOS"
+    }
+}
+

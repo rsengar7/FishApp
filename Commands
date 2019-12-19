@@ -1,0 +1,9 @@
+python train.py --dataset dataset --model fish.model --labelbin lb.pickle
+
+
+
+python classify.py --model fish.model --labelbin lb.pickle \
+	--image examples/charmander_counter.png
+
+
+
